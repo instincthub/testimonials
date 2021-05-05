@@ -16,10 +16,18 @@ We used the CSS class selector to target each element on the page and apply uniq
 
 
 ## Javascript Logic
+With Javascript, web developers can manipulate the DOM; in this tutorial, toggle an open class whenever the user clicks on each of the testimonies.
+
+### Key Concept: 
+
 *[Event bubbling](https://javascript.info/bubbling-and-capturing) and event capturing was used to capture clicks whenever the user clicks on the button. Which also allows us to manipulate the [parent element](https://www.w3schools.com/jsref/prop_node_parentelement.asp).*
 
-* We create a `ForEach` loop and added event handler on the `user_meta` div. 
+* addEventListener
+
+* We created a `ForEach` loop and added event handler on the `user_meta` div. 
 * We used the `if` statement to check which button was click and attached the open class to the `parentElement` 
+
+
 
 
 ## Credit: 
